@@ -1,0 +1,10 @@
+[package]
+name = "consolefps"
+version = "0.1.0"
+authors = ["Riccardo <vica95.a@hotmail.it>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winapi = {version = "0.3.8", features = ["winnt", "wincon", "winuser", "wincontypes"]}
